@@ -1,38 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader type="text">
+  <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>For P. Quinctius </title>
+        <title>For P. Quinctius</title>
         <title>For Quinctius, Sextus Roscius, Quintus Roscius, against Quintus Caecilius, and against
           Verres</title>
         <title type="sub">Machine readable text</title>
         <author>M. Tullius Cicero</author>
         <editor role="translator" n="Yonge">C. D. Yonge</editor> <sponsor>Perseus Project, Tufts University</sponsor>
 <principal>Gregory Crane</principal>
-<respStmt>
-<resp>Prepared under the supervision of</resp>
-<name>Lisa Cerrato</name>
-<name>William Merrill</name>
-<name>Elli Mylonas</name>
-<name>David Smith</name>
-</respStmt>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Bridget Almas</name>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>David Mimno</name>
+          <name>Rashmi Singhal</name>
+          <name>David Smith</name>
+        </respStmt>
+        <respStmt>
+          <persName>Zach Himes</persName>
+          <orgName>Tufts University</orgName>
+          <resp>CTS and EpiDoc conversion</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Allison Dempsey</persName>
+          <orgName>Tufts University</orgName>
+          <resp>Digital editing</resp>
+        </respStmt>
 <funder n="org:NEH">National Endowment For The Humanities (NEH)</funder> 
-      </titleStmt><publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>  <sourceDesc>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+        <date type="release">1997-10-28</date>
+      </publicationStmt> 
+      <sourceDesc>
         <biblStruct>
           <monogr>
             <author>M. Tullius Cicero</author>
             <title>The Orations of Marcus Tullius Cicero, literally translated by C. D.
-              Yonge</title>
+              Yonge</title><idno type="OCLC">4709897</idno>
             <imprint>
               <pubPlace>London</pubPlace>
               <publisher>George Bell &amp; Sons</publisher>
               <date>1903</date>
             </imprint>
           </monogr>
-          <idno type="OCLC">4709897</idno>
+          
         </biblStruct>
       </sourceDesc>
     </fileDesc>
@@ -72,10 +90,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
     <profileDesc>
       <langUsage>
-        <language ident="eng">English </language>
-        <language ident="fre">French </language>
-        <language ident="lat">Latin </language>
-        <language ident="grc">Greek </language>
+        <language ident="eng">English</language>
+        <language ident="fre">French</language>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
       </langUsage>
     </profileDesc>
 
@@ -428,7 +446,7 @@ minor cleanup (esp. character encodings and typos.)</change>
             security, because the defendant would not be bound to give security if he were present
             himself. The tribunes are appealed to, and as a positive decision was demanded from
             them, the matter is terminated on the footing of Sextus Alphenus undertaking that
-            Publius Quinctius should answer to his bail by the thirteenth of September.</p> 
+            Publius Quinctius should answer to his bail by the thirteenth of September.</p></div>
   <milestone n="8" unit="chapter" resp="yonge"/><milestone unit="Para"/>
           <div type="textpart" subtype="section" n="30" resp="perseus"><p>Quinctius comes to <placeName key="perseus,Rome">Rome</placeName>; he answers to his bail. That fellow, that most energetic man, the
             seizer of other men's goods, that invader, that robber, for a year and a half asks for
@@ -1252,7 +1270,7 @@ minor cleanup (esp. character encodings and typos.)</change>
             which has accompanied Publius Quinctius to his old age, does not attend him to the
             tomb.</p></div>
             </div>
-</div>
+
     </body>
       </text>
       </TEI>

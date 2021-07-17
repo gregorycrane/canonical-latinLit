@@ -3,30 +3,40 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader type="text">
+  <teiHeader>
       <fileDesc>
          <titleStmt>
 	           <title>Achilleis</title>
-            <author>Statius, P. Papinius</author>
-            <editor role="editor">John Henry Mozley</editor>
+            <author xml:lang="lat">P. Papinius Statius</author>
+            <editor>John Henry Mozley</editor>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <resp>Prepared under the supervision of</resp>
+               <name>Bridget Almas</name>
+               <name>Lisa Cerrato</name>
+               <name>Rashmi Singhal</name>
+            </respStmt>
             <funder n="org:Mellon">The Mellon Foundation</funder>
          </titleStmt>
          <publicationStmt>
 		          <publisher>Trustees of Tufts University</publisher>
 		          <pubPlace>Medford, MA</pubPlace>
 		          <authority>Perseus Project</authority>
+            <date type="release">2011-03-14</date>
 		       </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <author>Statius, P. Papinius</author>
-                  <title>Statius, Vol II.</title>
-                  <editor role="editor">John Henry Mozley</editor>
+                  <author xml:lang="lat">P. Papinius Statius</author>
+                  <title>Statius</title>
+                  <editor>John Henry Mozley</editor>
                   <imprint>
                      <publisher>London: William Heinemann; New York: G.P. Putnam's Sons</publisher>
                      <date>1928</date>
                   </imprint>
+                  <biblScope unit="volume">2</biblScope>
                </monogr>
+               <ref target="https://archive.org/details/statiuswithengli02statuoft/page/508/mode/2up" n="Volume 2">Internet Archive</ref>
             </biblStruct>
          </sourceDesc>
       </fileDesc>

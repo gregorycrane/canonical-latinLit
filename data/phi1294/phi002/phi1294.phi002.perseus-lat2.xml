@@ -2,27 +2,44 @@
   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Epigrammata</title>
+                <title xml:lang="lat">Epigrammata</title>
                 <author>Martial</author>
+                <editor>Wilhelm Heraeus</editor>
                 <sponsor>Perseus Project, Tufts University</sponsor>
                 <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Bridget Almas</name>
+                    <name>Lisa Cerrato</name>
+                    <name>Rashmi Singhal</name>
+                </respStmt>
+                <respStmt>
+                    <persName>Zach Himes</persName>
+                    <orgName>Tufts University</orgName>
+                    <resp>Digital editing</resp>
+                </respStmt>
+                <funder n="org:Mellon">The Mellon Foundation</funder>
             </titleStmt>
+               
             <publicationStmt>
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Project</authority>
+                <date type="release">2011-03-14</date>
             </publicationStmt>
             <sourceDesc default="false">
                 <bibl default="false">
-                    <title>M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus</title>
+                    <title xml:lang="lat">M. Valerii Martialis Epigrammaton libri</title>
                     <author>Martial</author>
-                    <editor role="editor">Wilhelm Heraeus<!--, 1862-1938 (main editor)--></editor>
-                    <editor role="editor">Jacobus Borovskij<!-- (added corrections in 1976, more than 30 years before 2011)--></editor>
+                    <editor>Wilhelm Heraeus</editor>
+                    <editor>Jacobus Borovskij</editor>
+                    <publisher>Teubner</publisher>
                     <pubPlace>Leipzig</pubPlace>
-                    <date>1925/1976</date>
+                    <date>1925</date>
+                    <date type="reprint">1976</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,8 +69,8 @@
         </encodingDesc>
         <profileDesc>
             <langUsage default="false">
-                <language ident="en">English</language>
-                <language ident="grc">Latin</language>
+                <language ident="eng">English</language>
+                <language ident="lat">Latin</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>

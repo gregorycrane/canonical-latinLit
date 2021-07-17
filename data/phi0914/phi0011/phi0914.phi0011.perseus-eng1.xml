@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title n="Ab Urbe Condita" type="work">Ab Urbe Condita, books 1-2 - 1</title>
@@ -11,18 +11,19 @@
                 <principal>Gregory Crane</principal>
                 <respStmt>
                     <resp>Prepared under the supervision of</resp>
+                    <name>Bridget Almas</name>
                     <name>Lisa Cerrato</name>
-                    <name>William Merrill</name>
-                    <name>Elli Mylonas</name>
-                    <name>David Smith</name>
+                    <name>David Mimno</name>
+                    <name>Rashmi Singhal</name>
                 </respStmt>
-                <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+                <funder n="org:NEH">The National Endowment for the Humanities</funder>
             </titleStmt>
-            <extent>About 100Kb</extent>
+            <extent/>
             <publicationStmt>
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Project</authority>
+                <date type="release" notBefore="2006"/>
             </publicationStmt>
             <sourceDesc default="false">
                 <biblStruct default="false">
@@ -254,7 +255,7 @@
                     discuss the question —for who could affirm for certain so ancient a matter?
                     —whether this boy was Ascanius, or an elder brother, born by Creusa while Ilium
                     yet stood, who accompanied his father when he fled from the city, being the same
-                    whom the Julian family call lulus and claim as the author of their name.
+                    whom the Julian family call Iulus and claim as the author of their name.
                         <milestone n="3" unit="section"/> This Ascanius, no matter where born, or of
                     what mother —it is agreed in any case that he was Aeneas' son —left Lavinium,
                     when its population came to be too large, for it was already a flourishing and
@@ -452,7 +453,7 @@
                     excitedly about the stranger, were accusing him as a murderer caught red-handed.
                     When he had been told about the deed and the reason for it, and had marked the
                     bearing of the man and his figure, which was somewhat ampler and more august
-                    than a mortal's, he inquired who lie was. <milestone n="10" unit="section"/>
+                    than a mortal's, he inquired who he was. <milestone n="10" unit="section"/>
                     Upon learning his name, his father, and his birth-place, he exclaimed, <quote>
                         Hail, Hercules, son of Jupiter! You are he, of whom my mother, truthful
                         interpreter of Heaven, foretold to me that you should be added to the number

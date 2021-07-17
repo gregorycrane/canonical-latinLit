@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title n="Ab Urbe Condita" type="work">Ab Urbe Condita, books 5-7 - 5</title>
@@ -11,18 +11,19 @@
                 <principal>Gregory Crane</principal>
                 <respStmt>
                     <resp>Prepared under the supervision of</resp>
+                    <name>Bridget Almas</name>
                     <name>Lisa Cerrato</name>
-                    <name>William Merrill</name>
-                    <name>Elli Mylonas</name>
-                    <name>David Smith</name>
+                    <name>David Mimno</name>
+                    <name>Rashmi Singhal</name>
                 </respStmt>
-                <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+                <funder n="org:NEH">The National Endowment for the Humanities</funder>
             </titleStmt>
-            <extent>About 100Kb</extent>
+            <extent/>
             <publicationStmt>
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Project</authority>
+                <date type="release" notBefore="2006"/>
             </publicationStmt>
             <sourceDesc default="false">
                 <biblStruct default="false">
@@ -85,7 +86,7 @@
                         See chap. x. § 1 and chap. xiv. § 5 and notes there. </note> a greater
                     number than ever before, to wit, Manius Aemilius Mamercus (for the second time),
                     Lucius Valerius Potitus (for the third), Appius Claudius Crassus, Marcus
-                    Quinctilius Varus, Lucius Julius lulus, Marcus Postumius, Marcus Furius
+                    Quinctilius Varus, Lucius Julius Iulus, Marcus Postumius, Marcus Furius
                     Camillus, Marcus Postumius Albinus. <milestone n="3" unit="section"/> But the
                     Veientes, weary of annual canvassing, which was sometimes the cause of brawls,
                     chose a king. This gave offence to the feelings of the Etruscan peoples, who
@@ -533,7 +534,7 @@
                         anchored="true" place="unspecified"> Really the first term of Camillus. The
                         error here and in chap. i. § 2 (see note) is tacitly corrected in chap. xiv.
                         § 5. </note> ), Manius Aemilius Mamercus (for the third), Gnaeus Cornelius
-                    Cossus (for the second), Caeso Fabius Ambustus, and Lucius Julius lulus, <note
+                    Cossus (for the second), Caeso Fabius Ambustus, and Lucius Julius Iulus, <note
                         anchored="true" place="unspecified">Not the same man as mentioned in chap.
                         i. § 2.</note> was a time of great activity both at home and in the field.
                         <milestone n="2" unit="section"/> For they made war at many points
@@ -853,7 +854,7 @@
                         <note anchored="true" place="unspecified" type="marg">B.C. 397</note> Delphi
                     or an expiation be devised for the Alban <pb n="p.57"/> portent, new military
                     tribunes with consular authority <note anchored="true" place="unspecified"
-                        type="marg">B.C. 397</note> came in; these were Lucius Julius lulus, <note
+                        type="marg">B.C. 397</note> came in; these were Lucius Julius Iulus, <note
                         anchored="true" place="unspecified"> For the second time ( <hi
                             rend="italics">cf.</hi> chap. x. § 1). </note> Lucius Furius Medullinus
                     (for the fourth time), Lucius Sergius Fidenas, Aulus Postumius Regillensis,

@@ -8,34 +8,43 @@
         <fileDesc>
             <titleStmt>
                 <title>Georgicon</title>
-                <title type="sub">Machine readable text</title>
-                <author n="Verg.">P. Vergilius Maro</author>
-                <editor role="editor" n="Greenough">J. B. Greenough</editor> <sponsor>Perseus Project, Tufts University</sponsor>
+                <author>P. Vergilius Maro</author>
+                <editor>J. B. Greenough</editor> <sponsor>Perseus Project, Tufts University</sponsor>
                 <principal>Gregory Crane</principal>
                 <respStmt>
                     <resp>Prepared under the supervision of</resp>
+                    <name>Bridget Almas</name>
                     <name>Lisa Cerrato</name>
                     <name>William Merrill</name>
-                    <name>Elli Mylonas</name>
                     <name>David Smith</name>
                 </respStmt>
-                <funder n="org:NEH">The National Endowment for the Humanities</funder> </titleStmt>
-            <extent>about 122Kb</extent> <publicationStmt>
+                <respStmt>
+                    <persName>Zehava Robbins</persName>
+                    <orgName>Tufts University</orgName>
+                    <resp>Digital editing</resp>
+                </respStmt>
+                <funder n="org:NEH">The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Project</authority>
-            </publicationStmt> <sourceDesc>
+                <date type="release">1997-10-28</date>
+            </publicationStmt>
+            <sourceDesc>
                 <biblStruct>
                     <monogr>
                         <author>Vergil</author>
-                        <title>Bucolics, Aeneid, and Georgics Of Vergil</title>
-                        <editor role="editor">J. B. Greenough</editor>
+                        <title>The Bucolics, Aeneid, and Georgics Of Virgil</title>
+                        <editor>J. B. Greenough</editor>
                         <imprint>
                             <pubPlace>Boston</pubPlace>
-                            <publisher>Ginn &amp; Co.</publisher>
-                            <date>1900</date>
+                            <publisher>Ginn and Company</publisher>
+                            <date>1881</date>
                         </imprint>
                     </monogr>
+                    <ref target="https://hdl.handle.net/2027/uc1.a0000339325">HathiTrust</ref>                  
                 </biblStruct>
             </sourceDesc>
         </fileDesc>

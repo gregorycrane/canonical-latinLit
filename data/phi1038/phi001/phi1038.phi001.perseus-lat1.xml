@@ -6,25 +6,40 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="work">Facta et Dicta Memorabilia</title>
-        <title type="sub">Machine readable text</title><author n="Valerius Maximus">Valerius Maximus</author>
+        <title xml:lang="lat">Facta et Dicta Memorabilia</title>
+        <author>Valerius Maximus</author>
         <editor>Karl Friedrich Kempf</editor>	       
         <funder n="org:Mellon">The Mellon Foundation</funder>
-      <sponsor>Perseus Project, Tufts University</sponsor><principal>Gregory Crane</principal><respStmt><resp>Prepared under the supervision of</resp><name>Bridget Almas</name><name>Lisa Cerrato</name><name>William Merrill</name><name>Elli Mylonas</name><name>David Smith</name></respStmt></titleStmt>
+      <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Bridget Almas</name>
+          <name>Lisa Cerrato</name>
+          <name>Rashmi Singhal</name>
+        </respStmt>
+        <respStmt>
+          <persName>Zach Himes</persName>
+          <orgName>Tufts University</orgName>
+          <resp>CTS and EpiDoc conversion</resp>
+        </respStmt>
+      </titleStmt>
       <publicationStmt>
 <publisher>Trustees of Tufts Universities</publisher>
 <pubPlace>Medford, MA</pubPlace>
 <authority>Perseus Project</authority>
+        <date type="release">2011-09-12</date>
 </publicationStmt>
 
       <sourceDesc>
         <biblStruct>
           <monogr>
             <author>Valerius Maximus</author>
-            <title>Factorvm et Dictorvm Memorabilivm, Libri Novem</title>            
-            <editor role="editor" n="Kempf">Karl Friedrich Kempf</editor>            
+            <title xml:lang="lat">Factorum et dictorum memorabilium libri novem
+              cum Iulii Paridis et Ianuarii Nepotiani epitomis</title>            
+            <editor>Karl Friedrich Kempf</editor>            
             <imprint>
-              <pubPlace>Leipsig</pubPlace>
+              <pubPlace>Leipzig</pubPlace>
               <publisher>Teubner</publisher>
               <date>1888</date>
             </imprint>

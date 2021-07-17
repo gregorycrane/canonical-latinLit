@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader type="text">
+  <teiHeader>
       <fileDesc>
          <titleStmt>
 	           <title>Historiae</title>
 	           <author>Cornelius Tacitus</author>
-            <sponsor>Perseus Digital Library</sponsor>
+            <sponsor>Perseus Project, Tufts University</sponsor>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <resp>Prepared under the supervision of</resp>
+               <name>Bridget Almas</name>
+               <name>Lisa Cerrato</name>
+               <name>David Smith</name>
+            </respStmt>
+            <funder n="org:Tufts">Tufts University</funder>
          </titleStmt>
-        <publicationStmt>
-            <authority>Tufts University</authority>
-            <availability default="false" status="unknown">
-                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
-            </availability>
-        </publicationStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Trustees of Tufts Universities</publisher>
+            <pubPlace>Medford, MA</pubPlace>
+            <authority>Perseus Project</authority>
+            <date type="release">2001-03-12</date>
+         </publicationStmt>
          <sourceDesc default="false">
 	           <bibl default="false" status="draft">
 	              <title>Historiae</title>
@@ -45,9 +54,9 @@
       </profileDesc>
   </teiHeader>
 
-   <text>
+   <text xml:lang="lat">
       <body>
-          <div type="edition" n="urn:cts:latinLit:phi1351.phi004.perseus-lat2">
+          <div type="edition" n="urn:cts:latinLit:phi1351.phi004.perseus-lat2" xml:lang="lat">
                <div type="textpart" subtype="book" n="1">
                      <head>LIBER I</head>
                   <div type="textpart" subtype="chapter" n="1"><p>
@@ -1728,8 +1737,8 @@ missi qui consilium eius sciscitarentur rettulerant. Otho pronus ad decertandum;
 numen Othonis adesse consiliis, adfore conatibus testabantur, neu quis obviam ire sententiae auderet, in adulationem 
 concesserant. postquam pugnari placitum, interesse pugnae 
 imperatorem an seponi melius foret dubitavere. Paulino et 
-Celso iam non adversantibus, ne principem obiectare peri- <pb ed="oct"/> 
-culis viderentur idem illi deterioris consilii auctores perpulere ut Brixellum concederet ac dubiis proeliorum exemptus 
+Celso iam non adversantibus, ne principem obiectare periculis <pb ed="oct"/> 
+viderentur idem illi deterioris consilii auctores perpulere ut Brixellum concederet ac dubiis proeliorum exemptus 
 summae rerum et imperii se ipsum reservaret. is primus 
 dies Othonianas partis adflixit; namque et cum ipso praetoriarum cohortium et speculatorum equitumque valida manus discessit, et remanentium fractus animus, quando 
 suspecti duces et Otho, cui uni apud militem fides, dum et 

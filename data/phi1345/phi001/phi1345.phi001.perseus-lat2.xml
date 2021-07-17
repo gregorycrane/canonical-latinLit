@@ -4,31 +4,41 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader type="text">
+  <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Punica</title>
-            <author>Silius Italicus</author>
-            <editor role="editor">Walter Coventry Summers</editor>
+            <title xml:lang="lat">Punica</title>
+            <author xml:lang="lat">Silius Italicus</author>
+            <editor>Walter Coventry Summers</editor>
+            <sponsor>Perseus Project, Tufts University</sponsor>
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <resp>Prepared under the supervision of</resp>
+               <name>Bridget Almas</name>
+               <name>Lisa Cerrato</name>
+               <name>Rashmi Singhal</name>
+            </respStmt>
             <funder n="org:Mellon">The Mellon Foundation</funder>
          </titleStmt>
          <publicationStmt>
             <publisher>Trustees of Tufts University</publisher>
             <pubPlace>Medford, MA</pubPlace>
             <authority>Perseus Project</authority>
+            <date type="release">2011-09-12</date>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
                   <author>Silius Italicus</author>
-                  <title>Corpus Poetarum Latinorum, Vol 2</title>
-                  <editor role="editor" n="Summers">Walter Coventry Summers</editor>
-                  <editor role="editor" n="Postgate">John Percival Postgate</editor>
+                  <title xml:lang="lat">Corpus Poetarum Latinorum</title>
+                  <editor>Walter Coventry Summers</editor>
+                  <editor>John Percival Postgate</editor>
                   <imprint>
                      <pubPlace>London</pubPlace>
                      <publisher>Sumptibus G. Bell et Filiorum</publisher>
                      <date>1905</date>
                   </imprint>
+            <biblScope unit="volume">2</biblScope>
                </monogr>
                <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5699091j/f8.image">Bibliothèque Nationale de France</ref>
                <ref target="https://archive.org/stream/corpuspoetarumla00post_0#page/210/mode/2up">Internet Archive</ref>

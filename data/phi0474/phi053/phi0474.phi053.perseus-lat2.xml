@@ -5,19 +5,29 @@
 %PersProse;
 ]>
 <TEI.2>
-<teiHeader type="text" status="new">
+<teiHeader xml:lang="eng" type="text" status="new">
 <fileDesc>
 <titleStmt>
 	<title>De Divinatione</title>
 <title type="sub">Machine readable text</title>
 	<author n="Cic.">M. Tullius Cicero</author>
 <editor role="editor" n="Falconer">William Armistead Falconer</editor>
-&responsibility;
-&fund.AnnCPB;
+	<respStmt>
+		<resp>Prepared under the supervision of</resp>
+		<name>Bridget Almas</name>
+		<name>Lisa Cerrato</name>
+		<name>David Mimno</name>
+		<name>Rashmi Singhal</name>
+	</respStmt>
+	<funder n="org:NEH">The National Endowment for the Humanities</funder>
 </titleStmt>
-<extent>About 100Kb</extent>
-&Perseus.publish;
-<sourceDesc>
+	<extent>About 100Kb</extent>
+	<publicationStmt>
+		<publisher>Trustees of Tufts University</publisher>
+		<pubPlace>Medford, MA</pubPlace>
+		<authority>Perseus Project</authority>
+		<date type="release">2009-10-07</date>
+	</publicationStmt><sourceDesc>
 <biblStruct>
 <monogr>
 <author>Cicero: De Senectute De Amicitia De Divinatione</author>
@@ -110,7 +120,7 @@ auspiciis nec domi nec militiae gerebatur. <reg>cumque</reg>
 
 <pb id="p.226"/>
 
-magna vis videretur esse et inpetriendis<note>inpetriendis <hi rend="italics">Manutius;</hi> impetrandis <hi rend="italics">MSS.</hi></note> consulendisque rebus et monstris interpretandis ac procurandis in haruspicum disciplina, omnem hane ex
+magna vis videretur esse et inpetriendis<note>inpetriendis <hi rend="italics">Manutius;</hi> impetrandis <hi rend="italics">MSS.</hi></note> consulendisque rebus et monstris interpretandis ac procurandis in haruspicum disciplina, omnem hanc ex
 Etruria scientiam adhibebant, ne genus esset ullum
 divinationis, quod neglectum ab eis videretur.</p>
 </div2>
